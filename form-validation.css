@@ -1,0 +1,13 @@
+/* Custom CSS for form validation */
+.container {
+    max-width: 600px;
+    margin-top: 50px;
+}
+
+.invalid-feedback {
+    display: none;
+}
+
+.is-invalid .invalid-feedback {
+    display: block;
+}
